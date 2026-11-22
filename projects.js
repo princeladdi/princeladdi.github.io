@@ -408,64 +408,56 @@ window.PROJECTS = [
  },
  {
   "slug": "battle_arena",
-  "title": "Multiplayer Battle Arena",
-  "kicker": "Battle Arena · AI Opponents · Unity",
+  "title": "Rebel Fort: Battle Arena",
+  "kicker": "Third-Person Battle Arena · AI Opponents · Unity",
   "cat": "multi",
   "company": "Ediiie · Client: Vulcan Forged",
   "year": "2023 – 24",
-  "summary": "Multiplayer battle arena game where players fight AI-controlled NPC opponents.",
+  "summary": "Battle arena combat against AI-controlled enemies: storm a fort, fight from cover and clear every opponent.",
   "features": [
-   "AI behaviour trees for NPC fighter opponents",
-   "Core gameplay work and stability fixes"
+   "AI behaviour trees drive the enemy fighters",
+   "Over-the-shoulder aiming from cover",
+   "Swap weapons on the fly",
+   "Explosive set pieces and damage numbers",
+   "Defeat every enemy to win the round"
   ],
   "featured": false,
   "link": null,
-  "icon": "AI"
+  "vertical": false,
+  "loop": "assets/work/battle_arena/loop.mp4",
+  "poster": "assets/work/battle_arena/poster.jpg",
+  "full": {
+   "type": "file",
+   "src": "assets/work/battle_arena/full.mp4"
+  }
  },
  {
   "slug": "golf",
-  "title": "Multiplayer Golf",
-  "kicker": "Sports · Multiplayer · Unity",
+  "title": "Celebrity Golf",
+  "kicker": "1 vs 1 Multiplayer Golf · Mobile · Unity",
   "cat": "multi",
   "company": "OffsureIT Solutions",
   "year": "2022 – 23",
-  "summary": "Client golf game I built alone, from the first requirements to a finished game.",
+  "summary": "Client golf game I built alone, from the first requirements to a finished game: real-time 1 vs 1 matches, tours and a full in-game economy.",
   "features": [
-   "Core golf gameplay",
-   "Dynamic camera system",
-   "Multiplayer matchmaking",
-   "In-game inventory and marketplace"
+   "Real-time 1 vs 1 multiplayer with matchmaking",
+   "Tours with entry fees, prizes and rewards",
+   "Aim and swipe-to-swing shot controls",
+   "Dynamic camera that follows every shot to the green",
+   "In-game inventory and marketplace",
+   "Built solo, from requirements to completion"
   ],
   "featured": false,
   "link": [
    "Showcase video",
    "https://drive.google.com/file/d/1xTIRxy2KP3sSAEAHtmCRWRmzt-6ZmLSU/view"
   ],
-  "icon": "⛳"
- },
- {
-  "slug": "celebrity_golf",
-  "title": "Celebrity Golf",
-  "kicker": "Mobile Multiplayer Sports · Unity",
-  "cat": "multi",
-  "company": "Igniva Solutions",
-  "year": "2016–18",
-  "summary": "Real-time 1 vs 1 mobile golf with tours, entry fees, rewards and physics-driven ball flight.",
-  "features": [
-   "Real-time 1 vs 1 multiplayer golf",
-   "Tours with entry fees, prizes and rewards",
-   "Aim, then swipe to swing with a power meter",
-   "Physics-driven ball flight with wind",
-   "Smooth camera follows every shot to the green"
-  ],
   "vertical": true,
-  "featured": false,
-  "link": null,
-  "loop": "assets/work/celebrity_golf/loop.mp4",
-  "poster": "assets/work/celebrity_golf/poster.jpg",
+  "loop": "assets/work/golf/loop.mp4",
+  "poster": "assets/work/golf/poster.jpg",
   "full": {
    "type": "file",
-   "src": "assets/work/celebrity_golf/full.mp4"
+   "src": "assets/work/golf/full.mp4"
   }
  },
  {
