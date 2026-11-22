@@ -358,3 +358,8 @@ a.proof-card:hover::after { color: var(--accent); }
 .kpi:nth-last-child(-n+4) { border-bottom: 0; }
 .kpi:first-child b, .kpi:nth-child(6) b { color: var(--ink); }
 .kpi:nth-child(3) b { color: var(--accent); }
+/* Uniform project grid: every card the same size, bodies aligned */
+.genre .grid, .grid.featured { align-items: stretch; }
+.card .media, .card.big .media, .card.tall .media { aspect-ratio: 16 / 10; flex: none; min-height: 0; }
+.card-body { display: flex; flex-direction: column; flex: 1; }
+.card-body .meta { margin-top: auto; padding-top: 10px; }
