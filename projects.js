@@ -459,44 +459,7 @@ window.PROJECTS = [
    "type": "file",
    "src": "assets/work/golf/full.mp4"
   }
- },
- {
-  "slug": "ar_places",
-  "title": "AR Places",
-  "kicker": "Unity Asset Store Plugin · AR · GPS",
-  "cat": "tools",
-  "company": "OffsureIT Solutions",
-  "year": "2018 – 22",
-  "summary": "A Unity plugin that identifies real-world places from the device camera's direction and GPS coordinates, published on the Unity Asset Store.",
-  "features": [
-   "Finds real-world locations from camera direction and GPS",
-   "Built and maintained as a reusable Unity plugin",
-   "Published on the Unity Asset Store"
-  ],
-  "featured": false,
-  "link": [
-   "Unity Asset Store",
-   "https://assetstore.unity.com/packages/tools/behavior-ai/ar-places-88693"
-  ],
-  "icon": "AR"
- },
- {
-  "slug": "prototypes",
-  "title": "AR/VR & Hyper-Casual Prototypes",
-  "kicker": "Rapid Prototyping · Mobile · Unity",
-  "cat": "tools",
-  "company": "OffsureIT Solutions",
-  "year": "2018 – 22",
-  "summary": "Many small and medium prototypes across AR/VR and hyper-casual mobile genres, built and improved in quick iterations.",
-  "features": [
-   "AR and VR prototypes",
-   "Hyper-casual mobile game prototypes",
-   "Fast build-test-improve cycles"
-  ],
-  "featured": false,
-  "link": null,
-  "icon": "▶"
  }
 ];
-window.CATEGORIES = [["all","All work"],["xr","AR / VR & Health"],["multi","Multiplayer"],["games","Mobile Games"],["tools","Plugins & Prototypes"]];
-window.GENRE_ORDER = ["xr","multi","games","tools"];
+window.CATEGORIES = [["all","All work"],["xr","AR / VR & Health"],["multi","Multiplayer"],["games","Mobile Games"]];
+window.GENRE_ORDER = ["xr","multi","games"];

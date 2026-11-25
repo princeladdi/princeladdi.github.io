@@ -80,3 +80,13 @@ h1, h2, h3, h4 { font-weight: 600; letter-spacing: -.02em; }
 .tl-grid { stroke: var(--line); }
 .chart-tip { background: #1b2030; border: 1px solid var(--line-strong); }
 .table-view th, .table-view td { border-color: var(--line); }
+
+/* Readability fixes: the base stylesheet uses --paper (near-black in this theme) for text and hover states */
+.contact h2 { color: #fff; }
+.contact .lead { color: var(--text); }
+.contact .muted { color: var(--muted); }
+.contact .eyebrow::before { background: var(--grad); }
+.contact .btn, .contact .btn-ghost { background: var(--grad); border: 0; color: #fff; }
+.contact .btn:hover, .contact .btn:focus-visible,
+.contact .btn-ghost:hover, .contact .btn-ghost:focus-visible { background: var(--grad); color: #fff; border: 0; filter: brightness(1.18); box-shadow: 0 0 0 2px rgba(255,255,255,.85), 0 12px 34px rgba(139,108,255,.55); }
+.play, .pipeline li span, .to-top { color: #fff; }
